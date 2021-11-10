@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="llahftzpra" fill="#FEC800" d="M16.137 19.41l-5.149-2.692L5.84 19.41c-.698.365-1.513-.224-1.38-.997l.983-5.699-4.165-4.036c-.565-.547-.253-1.5.527-1.613l5.757-.832 2.574-5.185c.35-.703 1.357-.703 1.706 0l2.575 5.185 5.757.832c.78.113 1.092 1.066.527 1.613l-4.166 4.036.984 5.7c.133.772-.683 1.361-1.38.996z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(1 2)">
+            <use fill="#4D4F56" fill-rule="nonzero" xlink:href="#llahftzpra"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,222 @@
+.hotel-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #35405A;
+}
+
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #58627A;
+}
+
+.rating {
+  display: flex;
+  margin-top: 8px;
+}
+
+.tiket-rating {
+  width: 29px;
+  height: 18px;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  background-color: #0064d2;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 8px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tiket-impression {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0064d2;
+}
+
+.facilities {
+  display: flex;
+  margin-top: 8px;
+}
+
+.facilities-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.price-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.after-price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #F15C59;
+}
+
+.desc-price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #8A93A7;
+  margin-bottom: 16px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  margin:0px 16px;
+  background: #8A93A7;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.benefit {
+  display: flex;
+  margin-top: 16px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.info-item-name {
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #00a474;
+  white-space: nowrap;
+}
+
+.hotel-image {
+  width: 278px;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 3.7px;
+}
+
+.detail-wrap {
+  margin-left: 20px;
+}
+
+.button-arrow-left {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 45%;
+  border-radius: 4px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.416576);
+  left: 1%;
+}
+
+.button-arrow-right {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 45%;
+  right: 1%;
+  border-radius: 4px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.416576);
+}
+
+.arrow {
+  position: absolute;
+  top: 16%;
+  left: 25%;
+  color: #ffffff;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.button {
+  background-color: #0064d2;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .4px;
+  position: relative;
+  border-radius: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  padding: 0 24px;
+  border: none;
+  min-width: 96px;
+  height: 48px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.dot-image {
+  cursor: pointer;
+  width: 4px;
+  height: 4px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.active, .dot-image:hover {
+  width: 8px;
+  height: 8px;
+  opacity: 1;
+}
+
+.dot-container {
+  position: absolute;
+  right: 40%;
+  bottom: 5%;
+}
+
+.carousel {
+  position: relative;
+}
