@@ -194,6 +194,17 @@
   align-items: center;
 }
 
+.button:disabled {
+  color: #8A93A7;
+  background-color: #DEE2EE;
+}
+
+.strikethrough-price {
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: #8A93A7;
+}
+
 .dot-image {
   cursor: pointer;
   width: 4px;
@@ -219,4 +230,11 @@
 
 .carousel {
   position: relative;
+}
+
+.information {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #F15C59;
 }
